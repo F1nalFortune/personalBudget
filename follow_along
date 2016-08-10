@@ -1,0 +1,32 @@
+$('table') - gives you a table
+
+$('p') - gives you all the p tags
+$('p:first') - gives you the first paragraph
+array 0 based
+
+$('tr:even') - give syou the table
+
+$('div') - gives you the divs
+$('#some_div :first-child')
+$('#some_div :nth-child(2)')
+       nth is not 0 based
+
+$('#some_div') - gives you one div with id
+
+$('.red') - gives you class of red
+
+$('h1').hide()
+          hides element
+$('h1').show()
+$('#some_div').text()
+         grabs element by ID
+
+         .val() give syou value of input
+         works like text for forms
+
+.html() dynamically adds html to a page
+
+.attr('finds parameter', 'sets parameter')
+          disables event,    changes color
+
+
